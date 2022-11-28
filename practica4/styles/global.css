@@ -1,0 +1,15 @@
+:root {
+    --rosita: #c9ada1;
+    --gris: #dadada;
+    --groc:#F3B63A;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins',Arial, Helvetica, sans-serif;
+}

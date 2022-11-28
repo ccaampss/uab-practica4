@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins';
+    background-color: #C9ADA1;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+
+}
+
+.formulari {
+    min-width: 50%;
+    width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    color: black;
+    font-size: 0.8em;
+}
+
+
+input,
+textarea {
+    outline: none;
+    border: 1px;
+}
+
+.input {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 94%;
+}
+
+.footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoEnviar {
+    background-color: white;
+    font-family: 'Poppins';
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+
+.botoRegistre {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: #F3B63A;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .formulari {
+        width: 90vw;
+    }
+
+}
